@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width initial-scale 1.0">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap">
+    <script src="assets/js/validacoes.js"></script>
+    <title>F4Life </title>
+</head>
+
+<body>
+
+    <header class="cabecalho"c>
+      <h1 class="cabecalho-logo"><img src="assets/image/f4life.png" alt="Logo F4life"></h1>
+        <nav>
+          <ul>
+            <li><a href="#quem_somos">Quem Somos</a></li>
+            <li><a href="#fale_conosco">Fale Conosco</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+
+      <section class="chamada">
+        <figure class="chamada-imagem">
+        <img src="assets/image/principal.jpg" alt="Imagem de um apartaemento modelo">
+        <figcaption class="chamada-imagem_texto">Venha fazer parte de uma experiência única em moradia universitária</figcaption>
+        </figure>
+      </section>
+      
+      <section class="quem_somos">
+        <h1 class="quem_somos-principal"><a name="quem_somos">Quem Somos</h1><br><br>
+        <p>A F4Life é uma empresa que gerencia imóveis, tendo como objetivo proporcionar uma experiência única para estudantes universitários.</p><br><br>
+        <p>Somos especializados em reformar e preparar moradias para recepção de pessoas universitárias, em um ambiente específico e otimzado para a sua vida de estudante.</p><br><br>
+        <p>Oferecemos todo o suporte necessário para garantir conforto e segurança durante sua jornada para a graduação.</p><br><br>
+        <p>Entre em contato conosco para que possamos trabalhar em busca de um imóvel ideal para sua rotina como estudante.</p>
+      </section>
+
+      <section class="fale_conosco"><a name="fale_conosco">
+        <h1 class="fale_conosco-titulo">Fale Conosco</h1>
+        <form class="fale_conosco-formulario">
+        
+          <label for="email">Email</label>
+          <input type="text" id="email" class="input-padrao" onblur="validarEmail()" placeholder="seuemail@dominio.com">
+          <small id="erro-email" class="erro"></small>  
+
+          <label for="mensagem">Mensagem</label>
+          <textarea name="Mensagem" placeholder= "Digite sua mensagem aqui" id="mensagem" cols="70" rows="10" class="fale_conosco-mensagem"></textarea>
+          <small id="erro-mensagem" class="erro"></small>
+
+          <button class="botao" id="botao" onclick="validarDados()">Enviar</button>
+          
+          </script>
+        </form>
+
+      </section>
+
+    </main>
+  
+    <footer class="rodape">
+      <ul class="rodape-social">
+        <li><a href=http://www.twitter.com target="_blank" class="rodape-midia"><img src="assets/image/twitter_logo.png"></a></li>
+        <li><a href=http://www.facebook.com target="_blank" class="rodape-midia"><img src="assets/image/facebook_logo.png"></a></li>
+        <li><a href=http://www.instagram.com target="_blank" class="rodape-midia"><img src="assets/image/instagram_logo.png"></a></li>
+        <p class="rodape">Siga-nos em nossas redes socias</p>
+      </footer>
+
+  </body>
+
+</html>

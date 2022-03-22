@@ -1,0 +1,155 @@
+body {
+  background-color: #132235;
+  color: #6ddad3;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #132235;
+}
+
+.cabecalho {
+  margin: 0 0 auto;
+}
+
+.cabecalho-logo {
+  display: table-cell;
+  float: left;
+  width: 500px;
+  height: 200px;
+  margin: 0 0;
+}
+
+nav {
+  display: table-cell;
+  float: right;
+  width: 500px;
+  margin-top: 5rem;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  margin-right: 0.7rem;
+  margin-bottom: 0, 25rem;
+  margin-left: 0.7rem;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #6ddad3;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.chamada {
+  margin: 5% 0;
+}
+
+.chamada-imagem {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.chamada-imagem_texto {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: normal;
+}
+
+.quem_somos {
+  margin: 5% 0;
+  text-align: center;
+}
+
+.quem_somos-principal {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 5% 0;
+  clear: left;
+}
+
+.fale_conosco {
+  margin: 5% 0;
+  justify-content: center;
+}
+
+.fale_conosco-titulo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 5% 0;
+  clear: left;
+}
+.fale_conosco-formulario {
+  width: 70vw;
+  display: flex;
+  margin: 0 10em;
+  font-size: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-padrao {
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #132235;
+  border: 1px solid #6ddad3;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 10px;
+}
+
+.fale_conosco-mensagem {
+  background-color: #132235;
+  padding: 100px;
+  margin-bottom: 15px;
+  background-color: #132235;
+  border: 1px solid #6ddad3;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 150px;
+}
+
+.botao {
+  background: #132235;
+}
+
+.botao:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.rodape-social {
+  display: flex;
+}
+
+.rodape-midia {
+  display: block;
+  width: 42px;
+  height: 42px;
+  margin: 2rem 1rem;
+}
